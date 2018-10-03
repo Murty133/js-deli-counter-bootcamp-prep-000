@@ -8,6 +8,6 @@ function nowServing(line) {
     return "There is noby waiting to be served!"
   }
   else {
-    return line.pop()
+    return line.shift()
   }
 }
