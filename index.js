@@ -34,10 +34,10 @@ function currentLine(line) {
     var string = "The line is currently:"
     for (var i = 0; i < line.length; i++) {
       if(i === 0) {
-        string += ` ${i+1}. ${line[i]} `
+        string += ` ${i+1}. ${line[i]}`
       }
       else {
-        string += `, ${i+1}. ${line[i]} `
+        string += `, ${i+1}. ${line[i]}`
       }
     }
   } return string
